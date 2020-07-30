@@ -1,0 +1,23 @@
+print("Welcome to your calculator")
+print("Enter your first number")
+n1=int(input())
+print("Enter your second number")
+n2=int(input())
+print("Chosse your operator")
+op=input()
+if op == '+' and n1 == 56 and n2 == 9:
+    print("Answer of these numbers is :77")
+elif op == '*' and n1 == 45 and n2 == 3:
+    print("Answer of these numbers is :555")
+elif op == '/' and n1 == 56 and n2 == 4:
+    print("Answer of these numbers is:4")
+elif op == '*' :
+    print("your answer is",n1*n2)
+elif op == '-':
+    print("your answer is:",n1 - n2)
+elif op =='/' :
+    print("Your answer is:",n1 / n2)
+elif op =='+' :
+    print("your answer is :",n1 + n2)
+else:
+    print("Unknown eroor")
